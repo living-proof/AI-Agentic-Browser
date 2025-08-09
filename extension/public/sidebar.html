@@ -1,0 +1,47 @@
+<!--Rename this to sidebar.html-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="sidebar.css">
+    <title>Agentic Browser</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <div class="chatbox-wrapper">
+        <div class="toolbar">
+            <div class="title"><span></span></div>
+            <div class="toolbar-buttons">
+                <button id="clear-chat-button" class="toolbar-button" title="Clear Chat">➕</button>
+                <button id="settings-button" class="settings-button" title="Settings">⚙️</button>
+            </div>    
+        </div>
+        <div class="chat-container">
+            <!--
+            <div class="bubble bot-message">
+                <div class="loading">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </div>
+    
+            </div>
+            <div class="bubble bot-message">
+                <span>Hello! How can I help you today?</span>
+            </div>
+            <div class="bubble user-message">
+                <span>Hello, ChatGPT!</span>
+            </div>
+            -->
+        </div>
+        <div class="input-container">
+            <textarea id="message-input" placeholder="Ask anything..."></textarea>
+            <button id="send-btn">⬆️</button>
+            <button id="stop-btn">🟥</button>
+        </div>
+    </div>
+    <script type="module" src="./sidebar.js"></script>
+  </body>
+</html>

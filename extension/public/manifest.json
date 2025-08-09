@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "Agentic Browser",
+  "version": "1.0",
+  "description": "ChatGPT, but for your browser.",
+
+  "permissions": ["storage", "sidePanel", "tabs", "scripting"],
+  "host_permissions": ["<all_urls>"],
+
+  "icons": {
+    "128": "icon.png"
+  },
+
+  "action": {
+    "default_icon": "icon.png"
+  },
+
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+
+  "side_panel": {
+    "default_path": "sidebar.html"
+  },
+
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self';"
+  }
+}
