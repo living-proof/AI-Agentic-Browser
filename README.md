@@ -4,6 +4,17 @@ This is the **extension** portion of the AI-Browser project. It’s essentially 
 
 ---
 
+## 📷 Preview
+
+<p align="center">
+  <img src="preview/sidebar.png" alt="AI Sidebar" width="49%">
+  <img src="preview/usecase.png" alt="Usage" width="49%">
+</p>
+
+<p align="center">
+  <em>Sidebar • How to Use</em>
+</p>
+
 ## 🚀 Features (Current & Planned)
 
 ### ✅ Current Capabilities
