@@ -62,7 +62,7 @@ extension/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/jorelaustin/AI-Agentic-Browser.git
+git clone https://github.com/living-proof/GUI-for-ROV-Mate-2025.git
 cd AI-Browser/extension
 ```
 
